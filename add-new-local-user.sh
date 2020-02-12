@@ -50,3 +50,4 @@ echo 'password:' | echo "${PASSWORD}"
 echo
 echo 'host:' | echo "${HOSTNAME}"
 exit 0
+#end
