@@ -44,10 +44,13 @@ fi
 passwd -e ${USER_NAME}
 #Display the username , password , and the host where the user was created
 echo
-echo 'username:' | echo "${USER_NAME}" 
+echo 'username:' 
+echo "${USER_NAME}" 
 echo 
-echo 'password:' | echo "${PASSWORD}"
+echo 'password:' 
+echo "${PASSWORD}"
 echo
-echo 'host:' | echo "${HOSTNAME}"
+echo 'host:' 
+echo "${HOSTNAME}"
 exit 0
 #end
