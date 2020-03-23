@@ -40,8 +40,14 @@ do
 		 usage
 		 ;;
 	esac
-done		 
+done
+		 
+shift "$((OPTIND - 1))"
 
+if [[ "${#}" -gt 0 ]]; then
+
+	usage
+fi
 send_to_stdout 'Generating password'
 PASSWORD=$(date +%s%N${RANDOM}${RANDOM} | sha256sum | head -c${LENGHT})	 
 
