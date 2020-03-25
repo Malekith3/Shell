@@ -1,5 +1,5 @@
 #!/bin/bash
-#The Script disables , deletes ,and/or archives users on the local system
+#The Script disables , deletes , and/or archives users on the local system
 
 #Usage function displaying rules of script . Will call on error 
 
