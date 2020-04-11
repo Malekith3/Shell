@@ -1,9 +1,7 @@
 #!/bin/bash
-<<<<<<< HEAD
-#The Script disables , deletes ,and/or archives users on the local system
-=======
+
 #The Script disables , deletes , and/or archives users on the local system
->>>>>>> bed2bf1746a3a3ad2f7f4ebdff072b91ece62445
+
 
 #Usage function displaying rules of script . Will call on error 
 
@@ -46,7 +44,7 @@ remove_folder(){
 	fi
 }
 backup_user(){
-#Fucntion make backup of user appropriate folder in /home dir
+#Function make backup of user appropriate folder in /home dir
 	checking_UID 
 	if [[ ! -d "${ARCHIVE_DIR}" ]] 
 	then
@@ -84,7 +82,7 @@ then
 	exit 1
 fi
 
-#Seting up flags for operators 
+#Setting up flags for operators 
 while getopts dra OPTION
 do
 	case ${OPTION} in
@@ -104,7 +102,7 @@ then
 	usage	
 fi
 
-#Loop trough all the usernames supplied as arguments 
+#Loop trough all the user-names supplied as arguments 
 
  while [[ $# -gt 0 ]] 
  do
