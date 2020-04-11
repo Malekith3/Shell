@@ -1,5 +1,9 @@
 #!/bin/bash
+<<<<<<< HEAD
 #The Script disables , deletes ,and/or archives users on the local system
+=======
+#The Script disables , deletes , and/or archives users on the local system
+>>>>>>> bed2bf1746a3a3ad2f7f4ebdff072b91ece62445
 
 #Usage function displaying rules of script . Will call on error 
 
